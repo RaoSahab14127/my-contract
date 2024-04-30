@@ -1,6 +1,6 @@
 
 #[cfg(not(feature = "library"))]
-use cosmwasm_std::{to_binary, Binary, DepsMut, Env, StdResult};
+use cosmwasm_std::{to_binary, Binary, DepsMut, Env, StdResult, };
 
 use crate::msg::QueryResponse;
 use crate::state::STATE;
